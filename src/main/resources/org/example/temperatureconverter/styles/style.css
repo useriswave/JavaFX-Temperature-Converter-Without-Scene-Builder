@@ -1,0 +1,78 @@
+.label {
+    -fx-font-family: "Roboto Mono";
+}
+
+#convert-button {
+    -fx-background-radius: 7;
+    -fx-border-radius: 5;
+    -fx-background-color: #478eff;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#result-label {
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 15;
+    -fx-text-fill: #478eff;
+}
+
+#text-field {
+    -fx-text-fill: #478eff;
+    -fx-background-radius: 7;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+    -fx-border-color: #478eff;
+}
+
+#header {
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-text-fill: #478eff;
+}
+
+#from {
+    -fx-font-weight: bold;
+    -fx-font-size: 13;
+    -fx-text-fill: #478eff;
+}
+
+#to {
+    -fx-font-weight: bold;
+    -fx-font-size: 13;
+    -fx-text-fill: #478eff;
+}
+
+#convert-button:hover {
+    -fx-border-color: #478eff;
+    -fx-background-color: white;
+    -fx-text-fill: #478eff;
+}
+
+#root-pane {
+    -fx-background-color: #1a1a1a;
+}
+
+.choice-box {
+    -fx-background-radius: 7;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+    -fx-border-color: #478eff;
+}
+
+.choice-box .label {
+    -fx-text-fill: #478eff;
+}
+
+.choice-box .context-menu .menu-item .label {
+    -fx-text-fill: #478eff;
+}
+
+.choice-box .context-menu .menu-item:focused {
+    -fx-background-color: #478eff;
+}
+
+.choice-box .context-menu .menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
